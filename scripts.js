@@ -10,10 +10,9 @@ function teste() {
     var nome = campoNome.value.trim();
     var mensagem = "Hello Wold: " + nome;
     mensagemHW.innerText = mensagem;
-    win
 }
 
 function limpar() {
     campoNome.value = '';
-     mensagemHW.value = '';
+    mensagemHW.innerText = '';
  }
